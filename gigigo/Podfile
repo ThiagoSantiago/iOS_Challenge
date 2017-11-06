@@ -3,9 +3,8 @@ platform :ios, '10.0'
 use_frameworks!
 
 target 'gigigo' do
-  pod 'RxSwift'
-  pod 'RxCocoa'
   pod 'Alamofire'
   pod 'ObjectMapper'
+  pod 'AlamofireImage'
   pod 'AlamofireObjectMapper'
 end
